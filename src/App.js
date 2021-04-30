@@ -27,7 +27,7 @@ function App() {
             <h4> {product.cost} </h4>
             <img src= {product.image} alt={product.name}/>
             <br />
-            <button>Add to Cart</button>
+            <button>Just a test</button>
           </div>
        ))}
      </div>
