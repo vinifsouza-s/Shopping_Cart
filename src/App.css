@@ -3,7 +3,7 @@
 }
 
 .products img{
-  width: 18%
+  width: 200px;
 }
 
 button {
@@ -15,4 +15,15 @@ header {
   background-color: rgba(76, 43, 226, 0.514);
   height: 70px;
   padding-top: 20px;
+}
+
+.product{
+  padding: 30px;
+}
+  
+.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
+  margin: 0 auto;
 }

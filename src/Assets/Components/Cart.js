@@ -1,6 +1,12 @@
 import React from 'react';
 
-export default function Cart({ cart }) {
+export default function Cart({ cart , setCart }) {
+
+    const removeFromCart = (productRemove) => {
+        setCart(
+            cart.filter((product) => product !== productRemove)
+        );
+    };
 
     return (
         <>
@@ -12,7 +18,7 @@ export default function Cart({ cart }) {
                         <h4> {product.cost} </h4>
                         <img src={product.image} alt={product.name} />
                         <br />
-                        <button>
+                        <button onClick={() => removeFromCart(product)}> 
                             Remove
                  </button>
                     </div>
