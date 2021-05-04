@@ -3,7 +3,16 @@
 }
 
 .products img{
-  width: 25%
+  width: 18%
 }
 
+button {
+  font-size: 15px;
+  padding: 15px;
+}
 
+header {
+  background-color: rgba(76, 43, 226, 0.514);
+  height: 70px;
+  padding-top: 20px;
+}
